@@ -1,365 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sarry's Portfolio</title>
-    <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Sarry's Portfolio</title>
+  <meta name="description" content="Portfolio Template for Developer" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/logo.jpg"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">sarry20</span>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/logo.jpg" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+        <span class="header__logo-sub">sarry20</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, My name is sarry20</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Im sarry20, a programmer of 16 years old that wants do plugins/mods for minecraft
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+
+      <div class="home-hero__social">
+        <a href="https://github.com/sarry20" class="home-hero__social-icon-link">
+          <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://twitter.com/@isarry20" class="home-hero__social-icon-link">
+          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Im a great fan of doing plugins/mods and play minecraft. I like do plugins/mods that the community can enjoy
+          and have fun!
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Hey! It's
+              <b>sarry20</b>
+              and I'm a <b> Java developer </b> located in
+              Spain. I've done
+              <b> remote </b>
+              projects for minecraft servers and collaborated
+              with talented people to create
+              <b>plugins on spigot </b>
+              for networks and private servers use
+            </p>
+            <p class="about__content-details-para">
+              I've started programming on Java nearly to 5 years ago and I've
+              started programming on Spigot 3 years ago, I've worked on my own
+              network and I've done plugins custom made through Fiverr.
+              Feel free to see the ways to
+              <b>contact</b> with me here.
+            </p>
+          </div>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">Java</div>
+            <div class="skills__skill">Spigot</div>
+            <div class="skills__skill">Fabric</div>
+            <div class="skills__skill">Java Swing</div>
+            <div class="skills__skill">MySQL</div>
+
           </div>
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          <strong>(Some plugins have no code because they are orders from fiverr)</strong><br>
+          Also feel free to ask questions about the code of any plugin I can send pieces of code, add to private
+          github projects or through screen sharing on discord. <br>
+          These are the projects that I've done or I've worked on:
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is sarry20</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Im sarry20, a programmer of 16 years old that wants do plugins/mods for minecraft
+        </span>
+      </h2>
+      <div class="projects__row">
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">ClashOfClansMC</h3>
+          <p class="projects__row-content-desc">
+            This plugin is ClashOfClans on Minecraft. The plugin is still on working but actually have a lot of features
+            within the time this will be able to buy it on spigot. Some of the features are generates an island with
+            world border, capacity to upgrade the townhall, elixir extractor, dark elixir extractor and gold mines.
           </p>
         </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
+      <div class="projects__row">
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">VBank</h3>
+          <p class="projects__row-content-desc">
+            This is my first plugin published in spigot. It is a virtual banking system with interest, a system to lose
+            money in your pocket when you die and more. For more information or screenshots of it see the spigot page.
+          </p>
+          <a href="https://www.spigotmc.org/resources/106271/" class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank">Store</a>
         </div>
       </div>
-      <div class="home-hero__socials">
-        
-        <div class="home-hero__social">
-          <a href="https://github.com/sarry20" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://twitter.com/@isarry20" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            Im a great fan of doing plugins/mods and play minecraft. I like do plugins/mods that the community can enjoy and have fun!
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hey! It's
-                <strong>sarry20</strong>
-                and I'm a <strong> Java developer </strong> located in
-                Spain. I've done
-                <strong> remote </strong>
-                projects for minecraft servers and collaborated
-                with talented people to create
-                <strong>plugins on spigot </strong>
-                for networks and private servers use
-              </p>
-              <p class="about__content-details-para">
-                I've started programming on Java nearly to 5 years ago and I've 
-                started programming on Spigot 3 years ago, I've worked on my own
-                network and I've done plugins custom made through Fiverr.
-                Feel free to see the ways to
-                <strong>contact</strong> with me here.
-              </p>
-            </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">Java</div>
-              <div class="skills__skill">Spigot</div>
-              <div class="skills__skill">Fabric</div>
-              <div class="skills__skill">Java Swing</div>
-              <div class="skills__skill">MySQL</div>
 
-            </div>
-          </div>
+      <div class="projects__row">
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">OneBlockCore</h3>
+          <p class="projects__row-content-desc">
+            This is a plugin that generates islands with a world border with a block, the one block, a coop system, you
+            can also visit other islands. And it has a level system completely configurable by configuration.
+          </p>
+
         </div>
       </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            <strong>(the plugins that don't have codes is because are fiverr orders and the code is confidential)</strong> 
-            This are the projects that I've done or I've worked on:
-            
-          </span>
-        </h2>
-
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Custom EnderChest</h3>
-              <p class="projects__row-content-desc">
-                Custom EnderChest was my first custom plugin. This plugin
-                tries to copy to the EnderChest plugin of a famous network.
-                The code is bad done, difficult to understand and have classes with hundreds of lines
-                because I hadn't experience 
-              </p>
-              <a
-              href="https://github.com/sarry20/CustomEnderChest"
-              class="btn btn--med btn--theme dynamicBgClr"
-              target="_blank"
-              >Code</a
-            >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">BountyHunter</h3>
-              <p class="projects__row-content-desc">
-                The idea was do 3 teams and every (one of this are neutral)
-                a certain time you will recive a map with the name of other player and different
-                team than yours. You need to kill to get a bounty. The plugin is <strong>unfinished</strong> the teams system
-                is not finished at all
-              </p>
-              <a
-              href="https://github.com/sarry20/BountyHunter"
-              class="btn btn--med btn--theme dynamicBgClr"
-              target="_blank"
-              >Code</a
-            >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">KillReward</h3>
-              <p class="projects__row-content-desc">
-                This is the most recent plugin I've done. Don't specialy complex plugin.
-                When you die a certain times that you can configure you will be banned a certain times
-                When someone kills you, he can't hurt you and you can't hurt he in a certain time.
-                If you have a killstreak you will give a bounty, diamonds for example it can be configured
-                You have a scoreboard with the people that have more bounty
-
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">DeathBan</h3>
-              <p class="projects__row-content-desc">
-                The name says all of this plugin, when you dies you get ban but the first time you dies
-                you are banned a certain time but the next time you will be banned more time. 
-                You have 3 commands, for add a death, remove and clear all deaths
-                
-              </p>
-              
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">VoltionStaff</h3>
-              <p class="projects__row-content-desc">
-                This is a Staff Mode plugin done for my own network you can freeze
-                watch the inventories of the players, randomTP to the users, rollback inventories, a scoreboard
-                with usefull information to the staffs and works with database (MySQL)
-              </p>
-              <a
-              href="https://github.com/sarry20/VoltionStaff"
-              class="btn btn--med btn--theme dynamicBgClr"
-              target="_blank"
-              >Code</a
-            >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Hearts</h3>
-              <p class="projects__row-content-desc">
-                A simple plugin that adds hearts with a custom craft.
-                To craft a heart you will need a Heart Fragment.
-                When you die you lose 1 Heart and when you kill you get 1 Heart.
-                You can use a command to get a heart from your bar to your inventory.
-                You can give a player hearts and sets his hearts (admin commands)
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">BlocksRegen</h3>
-              <p class="projects__row-content-desc">
-                A plugin that regen certain blocks in a certain time that the player breaks
-                and when you are in a cold biome adds you freeze effect so you need to go
-                near a campfire to get heat or you can go with leather armor.
-                Are some blocks that you can't break 
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">StaffVote</h3>
-              <p class="projects__row-content-desc">
-                A simple plugin that you can vote for your favourite staff
-                the most loved staff will have an npc with his name and skins.
-                The votes are reseted every month. Uses MySQL
-              </p>
-            
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">And more...</h3>
-              <p class="projects__row-content-desc">
-                I have more projects but I cant add here all
-                if you are interested on know about this projects contact with me
-              </p>
-            
-            </div>
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Custom EnderChest</h3>
+            <p class="projects__row-content-desc">
+              Custom EnderChest was my first custom plugin. This plugin
+              tries to copy to the EnderChest plugin of a famous network.
+              The code is bad done, difficult to understand and have classes with hundreds of lines
+              because I hadn't experience
+            </p>
+            <a href="https://github.com/sarry20/CustomEnderChest" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">Code</a>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            If you are interested on contact me you can through:
-            <p>Discord: sarry20#6599</p>
-            <p>Twitter: @isarry20</p>
-            <p>Email: izansr67@gmail.com</p>
-            <p><strong>The fastest way is through discord!</strong> </p>
-          </span>
-        </h2>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://github.com/sarry20">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://twitter.com/@isarry20">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-
-            </div>
+        <div class="projects__row">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">BountyHunter</h3>
+            <p class="projects__row-content-desc">
+              The idea was do 3 teams (one of this are neutral) and every
+              a certain time you will recive a map with the name of other player and different
+              team than yours. You need to kill to get a bounty. The plugin is <strong>unfinished</strong> the teams
+              system is not finished at all
+            </p>
+            <a href="https://github.com/sarry20/BountyHunter" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">Code</a>
           </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">sarry20</h4>
-            <p class="main-footer__short-desc">
-              Programmer of 16 years old 
-              that wants do plugins/mods for minecraft
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">KillReward</h3>
+            <p class="projects__row-content-desc">
+              This plugin is not specialy complex.
+              When you die a certain times that you can configure you will be banned a certain times
+              When someone kills you, he can't hurt you and you can't hurt he in a certain time.
+              If you have a killstreak you will give a bounty, diamonds for example it can be configured
+              You have a scoreboard with the people that have more bounty
+
             </p>
           </div>
         </div>
+        <div class="projects__row">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">DeathBan</h3>
+            <p class="projects__row-content-desc">
+              The name says all of this plugin, when you dies you get ban but the first time you dies
+              you are banned a certain time but the next time you will be banned more time.
+              You have 3 commands, for add a death, remove and clear all deaths
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2022. Template by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
+            </p>
+
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">VoltionStaff</h3>
+            <p class="projects__row-content-desc">
+              This is a Staff Mode plugin done for my own network you can freeze
+              watch the inventories of the players, randomTP to the users, rollback inventories, a scoreboard
+              with usefull information to the staffs and works with database (MySQL)
+            </p>
+            <a href="https://github.com/sarry20/VoltionStaff" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">Code</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Hearts</h3>
+            <p class="projects__row-content-desc">
+              A simple plugin that adds hearts with a custom craft.
+              To craft a heart you will need a Heart Fragment.
+              When you die you lose 1 Heart and when you kill you get 1 Heart.
+              You can use a command to get a heart from your bar to your inventory.
+              You can give a player hearts and sets his hearts (admin commands)
+            </p>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">And more...</h3>
+            <p class="projects__row-content-desc">
+              I have more projects but I cant add here all
+              if you are interested on know about this projects contact with me
+            </p>
+
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          If you are interested on contact me you can through:
+          <p>Discord: sarry20#6599</p>
+          <p>Twitter: <a href="https://twitter.com/@isarry20">@isarry20</a> </p>
+          <p>Email: <a href="mailto:izansr67@gmail.com">izansr67@gmail.com</a> </p>
+          <p><strong>The fastest way is through discord!</strong> </p>
+        </span>
+      </h2>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://github.com/sarry20">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/@isarry20">
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">sarry20</h4>
+          <p class="main-footer__short-desc">
+            Programmer of 16 years old
+            that wants do plugins/mods for minecraft
+          </p>
+        </div>
+      </div>
 
-    <script src="./index.js"></script>
-  </body>
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright 2022. Template by
+        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
 </html>
